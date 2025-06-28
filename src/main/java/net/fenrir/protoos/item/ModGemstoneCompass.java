@@ -73,7 +73,7 @@ public class ModGemstoneCompass
             () -> new CompassItem(new Item.Properties()));
     public static final RegistryObject<Item> BARITE_COMPASS = ITEMS.register("barite_compass",
             () -> new CompassItem(new Item.Properties()));
-    public static final RegistryObject<Item> BAYLDONITE_COMPASS = ITEMS.register("bayldonite",
+    public static final RegistryObject<Item> BAYLDONITE_COMPASS = ITEMS.register("bayldonite_compass",
             () -> new CompassItem(new Item.Properties()));
     public static final RegistryObject<Item> BENITOITE_COMPASS = ITEMS.register("benitoite_compass",
             () -> new CompassItem(new Item.Properties()));
