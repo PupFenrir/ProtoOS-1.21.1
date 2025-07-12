@@ -21,18 +21,32 @@ public class ProtoOS
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         ModCreativeModeTabs.register(modEventBus);
-        ModGemstones.register(modEventBus);
+        ModGemstoneArrow.register(modEventBus);
+        ModGemstoneAxe.register(modEventBus);
+        ModGemstoneBonemeal.register(modEventBus);
+        ModGemstoneBow.register(modEventBus);
         ModGemstoneBrush.register(modEventBus);
+        ModGemstoneBundle.register(modEventBus);
         ModGemstoneCompass.register(modEventBus);
         ModGemstoneDust.register(modEventBus);
-        ModGemstoneSaddle.register(modEventBus);
-        ModGemstoneSpyglass.register(modEventBus);
         ModGemstoneElytra.register(modEventBus);
-        ModGemstoneTrident.register(modEventBus);
         ModGemstoneFireworkRocket.register(modEventBus);
         ModGemstoneFishingRod.register(modEventBus);
-        ModGemstoneFood.register(modEventBus);
         ModGemstoneFlintAndSteel.register(modEventBus);
+        ModGemstoneFood.register(modEventBus);
+        ModGemstoneFuelSource.register(modEventBus);
+        ModGemstoneHammer.register(modEventBus);
+        ModGemstoneHoe.register(modEventBus);
+        ModGemstoneMace.register(modEventBus);
+        ModGemstonePickaxe.register(modEventBus);
+        ModGemstones.register(modEventBus);
+        ModGemstoneSaddle.register(modEventBus);
+        ModGemstoneShears.register(modEventBus);
+        ModGemstoneShield.register(modEventBus);
+        ModGemstoneShovel.register(modEventBus);
+        ModGemstoneSpyglass.register(modEventBus);
+        ModGemstoneSword.register(modEventBus);
+        ModGemstoneTrident.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)

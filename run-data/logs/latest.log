@@ -1,0 +1,19 @@
+[13July2025 05:06:08.355] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\David\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, protoos, --all, --output, G:\ProtoOS (1.21.1)\src\generated\resources, --existing, G:\ProtoOS (1.21.1)\src\main\resources]
+[13July2025 05:06:08.357] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[13July2025 05:06:08.357] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.4 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[13July2025 05:06:08.432] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[13July2025 05:06:08.511] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/David/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[13July2025 05:06:09.113] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[13July2025 05:06:09.577] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\David\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, protoos, --all, --output, G:\ProtoOS (1.21.1)\src\generated\resources, --existing, G:\ProtoOS (1.21.1)\src\main\resources]
+[13July2025 05:06:12.706] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.1.1, for MC 1.21.1 with MCP 20240808.132146
+[13July2025 05:06:12.707] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.1.1 Initialized
+[13July2025 05:06:12.731] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[13July2025 05:06:13.342] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [protoos]
+[13July2025 05:06:13.375] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/David/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.1_mapped_parchment_2024.11.17-1.21.1/forge-1.21.1-52.1.1_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[13July2025 05:06:13.377] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/David/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.1_mapped_parchment_2024.11.17-1.21.1/forge-1.21.1-52.1.1_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[13July2025 05:06:13.463] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: protoos
+[13July2025 05:06:13.643] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: protoos finished after 179 ms
+[13July2025 05:06:13.643] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us
+[13July2025 05:06:13.707] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us finished after 63 ms
+[13July2025 05:06:13.707] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 244 ms
+[13July2025 05:06:13.725] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 7826, old count: 7826, new count: 7827, removed stale: 0, written: 1
